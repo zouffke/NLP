@@ -1,0 +1,5 @@
+setuptools
+wheel
+spacy
+chardet
+pandas
