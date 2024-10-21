@@ -14,4 +14,4 @@ def __detect_encoding(file_path: str):
 
 def read_file_with_encoding(file_path):
     with open(file_path, 'r', encoding=__detect_encoding(file_path)) as file:
-        return file.read()
+        return file.read().replace('\n', '')

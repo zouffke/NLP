@@ -1,8 +1,7 @@
 import spacy
 import pandas as pd
-from pandas.core.computation.ops import MATHOPS
 
-from txt_parser import read_file_with_encoding
+from global_scripts.txt_parser import read_file_with_encoding
 from spacy.matcher import Matcher
 
 
